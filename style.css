@@ -166,7 +166,10 @@ li {
   width: 90%;
   margin: 0 auto;
 }
-
+.rrr22 {
+  color: white;
+  display: none;
+}
 .green {
   color: #7ac966;
   font-weight: 700;
@@ -204,4 +207,12 @@ button {
   font-weight: 400;
   border-radius: 10px;
   color: white;
+}
+
+.r332 {
+  margin-top: -40px;
+}
+
+.r233 {
+  justify-self: center;
 }

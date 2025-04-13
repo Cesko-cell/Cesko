@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Optional inline style if you want it hidden by default */
+      #voterList {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div class="mainDiv">
@@ -13,6 +19,7 @@
           <img src="face1.jpg" alt="" class="faceimg" />
         </div>
       </div>
+
       <div class="firstDiv2">
         <p class="h12">ამომრჩეველი:</p>
         <h2>ლევან შენგელია</h2>
@@ -24,11 +31,9 @@
               <li class="li1">გვარი</li>
               <li class="li1">დაბ.თარიღი</li>
               <li class="li1">ოლქი/უბანი</li>
-
               <li class="li1 li3">საარჩევნო უბანი</li>
             </ul>
           </div>
-
           <div>
             <ul class="ul2">
               <li class="li2">ლევან</li>
@@ -40,10 +45,13 @@
           </div>
         </div>
       </div>
+
       <div class="li12Div">
         <p class="li12">ამომრჩევლის ერთიან სიაში რიგითი ნომერი</p>
       </div>
+
       <div class="firstline rr"></div>
+
       <div class="mainDiv3">
         <p class="color2">იურიდიული მისამართი</p>
         <p class="li2 p2">
@@ -53,13 +61,177 @@
         <p class="color2 r3">ფაქტობრივი საცხოვრებელი ადგილი</p>
         <p class="color2">ფაქტობრივი მდგომარეობა</p>
       </div>
+
       <div class="firstline rr2"></div>
+
       <div class="lastDiv">
         <p class="green">საარჩევნო უბნის მისამართი</p>
         <p class="color5">გლდანის 7მ/რ</p>
-        <div class="mapdiv"><img  src="download.jpg" alt="" class="map" /></div>
-        <button>ამ მისამართზე რეგისტრირებულ ამომრჩეველთა სია</button>
+        <div class="mapdiv"><img src="download.jpg" alt="" class="map" /></div>
+        <button id="toggleBtn">
+          ამ მისამართზე რეგისტრირებულ ამომრჩეველთა სია
+        </button>
+      </div>
+
+      <div class="onclickDiv" id="voterList">
+        <!-- ნატია -->
+        <div class="firstDiv2">
+          <div class="firstline"></div>
+          <div class="secondline">
+            <div>
+              <ul class="displayUl">
+                <li class="li1">სახელი</li>
+                <li class="li1">გვარი</li>
+                <li class="li1">დაბ.თარიღი</li>
+                <li class="li1">ოლქი/უბანი</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="ul2">
+                <li class="li2">ნათია</li>
+                <li class="li2">ნერსეზაშვილი</li>
+                <li class="li2">01.12.1981</li>
+                <li class="li2">10.43</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="li12Div">
+          <p class="li12 rrr22">ამომრჩევლის ერთიან სიაში რიგითი ნომერი</p>
+        </div>
+
+        <div class="mainDiv3 r332">
+          <p class="color2">იურიდიული მისამართი</p>
+          <p class="li2 p2">
+            საქართველო, ქალაქი თბილისი, გლდანის მასივი, VII მიკრო/რაიონი,
+            კორპუსი 16 ბინა 4
+          </p>
+          <p class="color2 r3">ფაქტობრივი საცხოვრებელი ადგილი</p>
+        </div>
+
+        <!-- ანანო -->
+        <div class="firstDiv2">
+          <div class="firstline r233"></div>
+          <div class="secondline">
+            <div>
+              <ul class="displayUl">
+                <li class="li1">სახელი</li>
+                <li class="li1">გვარი</li>
+                <li class="li1">დაბ.თარიღი</li>
+                <li class="li1">ოლქი/უბანი</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="ul2">
+                <li class="li2">ანანო</li>
+                <li class="li2">შენგელია</li>
+                <li class="li2">09.10.2002</li>
+                <li class="li2">10.43</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="li12Div">
+          <p class="li12 rrr22">ამომრჩევლის ერთიან სიაში რიგითი ნომერი</p>
+        </div>
+
+        <div class="mainDiv3 r332">
+          <p class="color2">იურიდიული მისამართი</p>
+          <p class="li2 p2">
+            საქართველო, ქალაქი თბილისი, გლდანის მასივი, VII მიკრო/რაიონი,
+            კორპუსი 16 ბინა 4
+          </p>
+          <p class="color2 r3">ფაქტობრივი საცხოვრებელი ადგილი</p>
+        </div>
+
+        <!-- დათა -->
+        <div class="firstline r233"></div>
+        <div class="firstDiv2">
+          <div class="secondline">
+            <div>
+              <ul class="displayUl">
+                <li class="li1">სახელი</li>
+                <li class="li1">გვარი</li>
+                <li class="li1">დაბ.თარიღი</li>
+                <li class="li1">ოლქი/უბანი</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="ul2">
+                <li class="li2">დათა</li>
+                <li class="li2">შენგელია</li>
+                <li class="li2">04.11.1982</li>
+                <li class="li2">10.43</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="li12Div">
+          <p class="li12 rrr22">ამომრჩევლის ერთიან სიაში რიგითი ნომერი</p>
+        </div>
+
+        <div class="mainDiv3 r332">
+          <p class="color2">იურიდიული მისამართი</p>
+          <p class="li2 p2">
+            საქართველო, ქალაქი თბილისი, გლდანის მასივი, VII მიკრო/რაიონი,
+            კორპუსი 16 ბინა 4
+          </p>
+          <p class="color2 r3">ფაქტობრივი საცხოვრებელი ადგილი</p>
+        </div>
+
+        <!-- ლევანი (კვლავ) -->
+        <div class="firstDiv2">
+          <div class="firstline"></div>
+          <div class="secondline">
+            <div>
+              <ul class="displayUl">
+                <li class="li1">სახელი</li>
+                <li class="li1">გვარი</li>
+                <li class="li1">დაბ.თარიღი</li>
+                <li class="li1">ოლქი/უბანი</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="ul2">
+                <li class="li2">ლევან</li>
+                <li class="li2">შენგელია</li>
+                <li class="li2">28.09.2005</li>
+                <li class="li2">10.43</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="li12Div">
+          <p class="li12 rrr22">ამომრჩევლის ერთიან სიაში რიგითი ნომერი</p>
+        </div>
+
+        <div class="mainDiv3 r332">
+          <p class="color2">იურიდიული მისამართი</p>
+          <p class="li2 p2">
+            საქართველო, ქალაქი თბილისი, გლდანის მასივი, VII მიკრო/რაიონი,
+            კორპუსი 16 ბინა 4
+          </p>
+          <p class="color2 r3">ფაქტობრივი საცხოვრებელი ადგილი</p>
+        </div>
       </div>
     </div>
+
+    <!-- JavaScript -->
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      const voterList = document.getElementById("voterList");
+
+      toggleBtn.addEventListener("click", () => {
+        voterList.style.display =
+          voterList.style.display === "none" ? "block" : "none";
+      });
+
+      // Hide it by default
+      voterList.style.display = "none";
+    </script>
   </body>
 </html>
